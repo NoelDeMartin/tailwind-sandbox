@@ -2,7 +2,7 @@
   "name": "tailwind-sandbox",
   "scripts": {
     "start": "parcel index.html",
-    "build": "rm dist -R && parcel build index.html"
+    "build": "rm dist -rf && rm .cache -rf && parcel build index.html"
   },
   "dependencies": {
     "tailwindcss": "^1.1.4"
